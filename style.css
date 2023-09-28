@@ -28,18 +28,36 @@ h1{
 #alarmdetails{
     color: #fff;
     font-size: 28px;
+    width: 25vw;
+    margin: 20px auto;
+}
+.alarms{
+    border: 5px solid white;
+    margin: 10px 0;
+}
+.alarms button{
+    margin-left: 20px;
+    background-color: rgb(255, 58, 58);
+}
+
+#currenttime span{
+    border: 5px solid white;
 }
 #inputfield{
     color: #fff;
     font-size: 28px;
-    display: none;
+    /* display: none; */
 }
+
 #inputfield input{
     padding:.5vw;
     border-radius: 10px;
-    width:28px;
+    width:50px;
     height: 50px;
     font-size: 28px;
+}
+hr{
+    color: #fff;
 }
 button{
     cursor: pointer;
