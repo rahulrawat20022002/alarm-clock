@@ -46,13 +46,13 @@ h1{
 #inputfield{
     color: #fff;
     font-size: 28px;
-    /* display: none; */
+    display: none;
 }
 
 #inputfield input{
     padding:.5vw;
     border-radius: 10px;
-    width:50px;
+    width:fit-content;
     height: 50px;
     font-size: 28px;
 }
