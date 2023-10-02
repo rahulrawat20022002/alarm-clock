@@ -24,7 +24,8 @@ const addalarmbtn=document.getElementById('alarmbtn');
 const inputfield=document.getElementById('inputfield')
 
 addalarmbtn.addEventListener('click',function(){
-    console.log("success");
+    // console.log("success");
+
     inputfield.style.display='inline';
     validate=true;
 
@@ -36,7 +37,7 @@ form.addEventListener('submit',function(e){
     e.preventDefault();
     const timeinputvalue=timeinput.value
     if(validate && timeinputvalue!==''){
-        console.log(timeinputvalue);
+        // console.log(timeinputvalue);
         displaydetail(timeinputvalue)
         alarmbool=true;
         alarmfunc(timeinputvalue)
